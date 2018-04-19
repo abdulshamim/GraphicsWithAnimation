@@ -13,6 +13,7 @@
 		4E0F18902087BF6700814895 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E0F188F2087BF6700814895 /* Assets.xcassets */; };
 		4E0F18932087BF6700814895 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E0F18912087BF6700814895 /* LaunchScreen.storyboard */; };
 		4E0F189C2087BFD800814895 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0F189B2087BFD800814895 /* ViewController.swift */; };
+		F12132F42088BCDF00126164 /* AnimationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12132F32088BCDF00126164 /* AnimationsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4E0F18922087BF6700814895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E0F18942087BF6700814895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E0F189B2087BFD800814895 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F12132F32088BCDF00126164 /* AnimationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				4E0F189B2087BFD800814895 /* ViewController.swift */,
+				F12132F32088BCDF00126164 /* AnimationsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				4E0F189C2087BFD800814895 /* ViewController.swift in Sources */,
 				4E0F188E2087BF6700814895 /* Graphics.xcdatamodeld in Sources */,
 				4E0F18862087BF6700814895 /* AppDelegate.swift in Sources */,
+				F12132F42088BCDF00126164 /* AnimationsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

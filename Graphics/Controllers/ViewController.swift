@@ -60,20 +60,6 @@ class CurveView: UIView {
         context.setStrokeColor(#colorLiteral(red: 0.2078431372549019, green: 0.2274509803921569, blue: 0.2509803921568627, alpha: 1).cgColor)
         context.strokePath()
     }
-    
-//    override func draw(_ rect: CGRect) {
-//        let frame = bounds.insetBy(dx: bounds.midX / 2, dy: bounds.midY / 2)
-//        guard let context = UIGraphicsGetCurrentContext() else { return }
-//        context.addRect(frame)
-//        context.setStrokeColor(#colorLiteral(red: 0.2078431372549019, green: 0.2274509803921569, blue: 0.2509803921568627, alpha: 0.5).cgColor)
-//        context.strokePath()
-//        context.move(to: CGPoint(x: frame.minX, y: frame.maxY))
-//        context.addCurve(to: CGPoint(x: frame.maxX, y: frame.minY),
-//                         control1: CGPoint(x: frame.minX + controlPoints[0].x * frame.width, y: frame.maxY - controlPoints[0].y * frame.height),
-//                         control2: CGPoint(x: frame.minX + controlPoints[1].x * frame.width, y: frame.maxY - controlPoints[1].y * frame.height))
-//        context.setStrokeColor(#colorLiteral(red: 0.2078431372549019, green: 0.2274509803921569, blue: 0.2509803921568627, alpha: 1).cgColor)
-//        context.strokePath()
-//    }
 }
 
 
